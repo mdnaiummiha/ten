@@ -1,0 +1,26 @@
+body{
+margin: 0;
+padding: 0;
+font-family: montserrat;
+background-color: rgb(69, 165, 69);
+height: 100vh;
+overflow: hidden;
+}
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 400px;
+background: white;
+border-radius: 10px;
+}
+.item{
+text-align: center;
+position: 0 0 20px 0;
+border-bottom: 1px solid silver;
+}
+.center from{
+padding: 0 40px;
+box-sizing: border-box;
+}
